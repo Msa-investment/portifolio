@@ -1,0 +1,168 @@
+/* GENERAL STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    outline: none;
+    
+}
+
+body{
+    background-color: rgb(77, 77, 231);
+    background-size: cover;
+    background-position: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.terms{
+    text-align: center;
+    margin: 20px;
+}
+
+/* FORM */
+.login{
+    width: 300px;
+    background:white;
+    margin: 12% auto;
+    padding: 50px;
+    border-radius: 20px;
+    color: #fff !important;
+    
+}
+
+.login h3{
+    text-align: center;
+    color:white;
+}
+.input-group{
+    width: 100%;
+    margin: 20px 0;    
+}
+
+.put{
+    width: 90%;
+    font-size: 20px;
+    margin-top: 50px; 
+    
+}
+
+
+input{
+    color: #000;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: .5rem;
+
+}
+
+input.submit{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin: 5% 0 0;
+   
+    
+}
+.submit-button {
+    margin: 0 2.5rem;
+    padding: 10px;
+    color: #000;
+    background-color: blue;
+    width: 100%;
+    border-radius:  .5rem; 
+    outline: none;
+    display: block;
+    font-size: 15px;
+}
+
+.main input{
+    width: 100% !important;
+    
+}
+.sixth{
+    color: blue;
+}
+
+.seventh input{
+position: relative;
+width: 100% !important;
+margin: 1rem auto;
+background-color: blue;
+border: none;
+color:#ccc ;
+}
+
+.SignUp{ 
+    width: 300px;
+    background:white;
+    margin: 12% auto;
+    padding: 50px;
+    border-radius: 20px;
+    color: #fff !important;
+}
+
+.SignUp input {
+    border-radius: .5rem;
+    border: 1px solid black;
+   
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: blue;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: blue;
+}
+.checkbox{
+    display: flex;
+    gap: 100px;
+}
+
+.rme{
+    text-wrap: nowrap;
+   
+}
+.sbtbtn{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+}
+/* social media*/
+.socialmedia{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    margin-left: -47px;
+  
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    size: 20px;
+}
+#btn{
+    width: 100%;
+    cursor: pointer;
+}

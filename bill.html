@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bill.css">
+</head>
+<body>
+    <p>Electricity Bill Payment</p>
+    <form>
+    <div class="index">
+        <label class="required">Disco name*</label><br>
+        <input list="disconame" placeholder="----------">
+        <datalist id="disconame">
+            <option value="1"></option>
+            <option value="1"></option>
+            <option value="1"></option>
+        </datalist><br>
+
+        <label>Meter Name*</label><br>
+        <input type="text"><br>
+
+        <label class="required">MeterType*</label><br>
+        <input list="metertype" placeholder="----------">
+        <datalist id="metertype">
+            <option value="1"></option>
+            <option value="1"></option>
+            <option value="1"></option>
+        </datalist><br>
+
+        <label class="required">Amount*</label><br>
+        <input type="text"><br>
+
+        <label class="required">Customer Phone*</label><br>
+        <input type="number" maxlength="11"><br>
+        
+        
+        <input type="decimal" placeholder="N10.0 Charge">
+        <div class="last">
+            <input type="submit" value="Validate">
+        </div>
+    </div>
+   </form>  
+</body>
+</html>

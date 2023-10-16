@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="engineer.css">
+</head>
+<body>
+    <h4>Buy Data Plan</h4>
+    <form>
+        <div class="input">
+                 Network* <br>
+            <input list="network" name="network" placeholder="---------" required>
+            <datalist id="network">
+                <option value="MTN">
+                <option value="Airtel">
+                <option value="9mobile">
+                <option value="Glo">
+            </datalist> <br>
+                 Data type* <br>
+            <input list="data-type" name="data-type" placeholder="---------" required>
+            <datalist id="data-type">
+                <option value="SME">
+                <option value="CORPORATE">
+                <option value="GIFTING">
+            </datalist> <br>
+            <p>Select Plan Type SME,GIFTING or CORPORATE GIFTING</p> <br>
+            <div>
+                Mobile number* <br>
+                <input type="tel" name="number" placeholder="081******43" maxlength="11" required> <br>
+                 Amount <br>
+                <input type="number" required> 
+            </div>
+        </div><br>
+        <div class="checkbox">
+            <input type="checkbox" required>Bypass number validator
+        </div>
+        <button><a href="buy now">Buy Now </a></button>
+
+
+    </form>
+</body>
+</html>

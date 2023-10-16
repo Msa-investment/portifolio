@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.header{
+   text-align: center;
+   color: navy;
+}
+.container{
+    display: flex;
+    width: 95%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.index{
+    
+    justify-content: center;
+    align-items: center; 
+    padding: 30px;
+}
+
+.index input{
+    width: 800px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.required::after{
+    content: '*';
+    color: black;
+}
+
+.last input{
+    width: 810px;
+    height: 30px;
+    background-color: navy;
+    color: aliceblue;
+    border: none;
+}
+.note p{
+    width: 35%;
+    height: 30vh;
+    padding-top: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    color: navy;
+}
